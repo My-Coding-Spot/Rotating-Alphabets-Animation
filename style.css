@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #b005ff;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box {
+    display: flex;
+    padding: 30px;
+    color: #fff;
+    font-size: 9em;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    border: 10px solid #fff;
+    transition: 1s;
+}
+.box li {
+    margin: 0px 20px;
+    background: none;
+    list-style: none;
+    transition: 0.9s;
+}
+.box:hover li {
+    transform: rotateZ(360deg);
+}
